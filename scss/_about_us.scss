@@ -1,0 +1,13 @@
+/*VAR*/
+
+$text:white;
+$title:white;
+
+.carouselInfo{
+    &_title-color{
+        color: $title;
+    }
+    &_text-color{
+        color:$text;
+    }
+}

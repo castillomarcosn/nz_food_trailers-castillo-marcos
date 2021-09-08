@@ -1,0 +1,10 @@
+/*VAR*/
+$text:white;
+
+/*Text Color*/
+.bgNavBar{
+    &_text-color{
+        color: $text;
+    }
+}
+

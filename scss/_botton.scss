@@ -1,0 +1,22 @@
+.btn{
+    width: 150px;
+    height:50px ;
+    border:1px solid #04243c;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.btn--productsBox{
+    @extend .btn;
+    background-color:#04243c;
+    color: white;
+}
+
+.btn--question{
+    @extend .btn;
+    width:100%;
+    background-color:white;
+    border-radius: 0px;
+}

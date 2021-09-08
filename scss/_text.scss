@@ -1,0 +1,62 @@
+/* variables */
+$text:#575f6b;
+$title:#04243c;
+$footerColor:white;
+
+
+$textMap:(
+    blockInfo:$text,
+    blockQ:$text,
+    blockProducts:$text,
+    blockTeam:$text
+
+);
+$titleMap:(
+    blockInfo:$title,
+    blockQ:$title,
+    blockProducts:$title,
+    blockTeam:$title
+
+);
+
+@each $name,$text in $textMap {
+    .#{$name}{
+        &_text-color{
+            color:$text;
+        }  
+    }
+    
+}
+
+
+
+@each $name,$title in $titleMap {
+    .#{$name}{
+        &_title-color{
+            color:$title;
+        }  
+    }
+    
+}
+
+
+
+/*Products text styles*/
+
+.bgFooter{
+    &_text-color{
+        color:$footerColor;
+        font-size: 15px;
+        text-decoration: none;
+        list-style: none;
+    }
+    &_title-color{
+        color:$footerColor;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+
+
+
+
