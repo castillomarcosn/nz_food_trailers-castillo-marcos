@@ -8,3 +8,9 @@ $height:auto;
         height: $height;
     }
 }
+
+.team{
+    &_padding-top{
+        padding-top: 5rem;
+    }
+}

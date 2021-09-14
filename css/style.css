@@ -195,6 +195,9 @@ footer p {
   width: 250px;
   height: auto; }
 
+.team_padding-top {
+  padding-top: 5rem; }
+
 /*VAR*/
 /*Text Color*/
 .bgNavBar_text-color {
