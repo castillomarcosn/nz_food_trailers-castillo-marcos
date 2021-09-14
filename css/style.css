@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
-  padding-top: 4rem;
+  padding-top: 0rem;
   padding-bottom: 0; }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -156,7 +156,7 @@ footer p {
 .carouselInfo_text-color {
   color: white; }
 
-.btn, .btn--productsBox, .btn--question {
+.btn, .btn--productsBox, .btn--question, .btn--service {
   width: 150px;
   height: 50px;
   border: 1px solid #04243c;
@@ -173,6 +173,10 @@ footer p {
   width: 100%;
   background-color: white;
   border-radius: 0px; }
+
+.btn--service {
+  background-color: #04243c;
+  color: white; }
 
 .productBox {
   width: 20rem;
@@ -192,3 +196,9 @@ footer p {
 /*Text Color*/
 .bgNavBar_text-color {
   color: white; }
+
+.service_section-padding {
+  padding-top: 10rem; }
+
+.boxService_size {
+  width: 25%; }
